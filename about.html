@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Axentrian - Technology Driven Solutions</title>
+    <meta name="description"
+        content="Learn about Axentrian's core values, mission, and how we help businesses transform through AI-driven innovation.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-900 font-sans selection:bg-blue-200">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-40 glass-morphism shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                            <i data-lucide="cpu" class="text-white w-6 h-6"></i>
+                        </div>
+                        <span class="text-2xl font-bold tracking-tight text-slate-800">Axentrian</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html"
+                        class="text-slate-600 hover:text-blue-600 transition-colors font-medium">Home</a>
+                    <a href="services.html"
+                        class="text-slate-600 hover:text-blue-600 transition-colors font-medium">Services</a>
+                    <a href="about.html" class="text-blue-600 font-medium font-medium">About Us</a>
+                    <a href="contact.html"
+                        class="text-slate-600 hover:text-blue-600 transition-colors font-medium">Contact</a>
+                </div>
+                <div class="hidden md:flex">
+                    <a href="contact.html"
+                        class="bg-blue-600 text-white px-6 py-2.5 rounded-full font-medium hover:bg-blue-700 transition-all hover:shadow-lg">Get
+                        Started</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-slate-600">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 p-4">
+            <div class="flex flex-col space-y-4">
+                <a href="index.html" class="text-slate-600">Home</a>
+                <a href="services.html" class="text-slate-600">Services</a>
+                <a href="about.html" class="text-blue-600 font-medium">About Us</a>
+                <a href="contact.html" class="text-slate-600">Contact</a>
+                <a href="contact.html" class="bg-blue-600 text-white px-6 py-2 rounded-full text-center">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="pt-40 pb-24 bg-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5 pointer-events-none">
+            <div class="absolute top-0 right-0 w-1/2 h-full bg-blue-600 rounded-l-full blur-3xl"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-8 leading-tight">
+                        Our Mission:<br>
+                        <span class="gradient-text">Engineering</span> Human Impact.
+                    </h1>
+                    <p class="text-xl text-slate-600 mb-6 leading-relaxed">
+                        At Axentrian, we are a technology-driven company focused on building intelligent, scalable, and
+                        automation-powered digital solutions. We help businesses transform the way they operate by
+                        combining software engineering expertise with AI-driven innovation.
+                    </p>
+                    <p class="text-lg text-slate-600 leading-relaxed">
+                        At our core, we believe technology should work for people — simplifying complexity, accelerating
+                        growth, and unlocking new possibilities.
+                    </p>
+                </div>
+                <div class="relative" data-aos="fade-left">
+                    <div class="aspect-square rounded-[3rem] overflow-hidden shadow-2xl relative">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1200"
+                            alt="Technology Innovation" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-blue-600/10 mix-blend-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-blue-400 font-bold uppercase tracking-wider mb-4">What Drives Us</h2>
+                <h3 class="text-4xl font-bold">Our Core Philosophy</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="p-10 rounded-3xl bg-slate-800/50 border border-slate-700 hover:border-blue-500 transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="w-12 h-12 bg-blue-500/20 text-blue-400 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="layers" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4">Scalability</h4>
+                    <p class="text-slate-400 leading-relaxed">
+                        We build solutions that grow with your business, ensuring long-term value and robustness under
+                        any demand.
+                    </p>
+                </div>
+                <div class="p-10 rounded-3xl bg-slate-800/50 border border-slate-700 hover:border-blue-500 transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div
+                        class="w-12 h-12 bg-indigo-500/20 text-indigo-400 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="trending-up" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4">Innovation</h4>
+                    <p class="text-slate-400 leading-relaxed">
+                        We combine engineering expertise with AI to stay ahead of the curve and deliver future-ready
+                        systems.
+                    </p>
+                </div>
+                <div class="p-10 rounded-3xl bg-slate-800/50 border border-slate-700 hover:border-blue-500 transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div
+                        class="w-12 h-12 bg-emerald-500/20 text-emerald-400 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="users-2" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4">Partnership</h4>
+                    <p class="text-slate-400 leading-relaxed">
+                        We partner closely with our clients to align with their goals and build technology that creates
+                        impact.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white text-slate-900 py-16 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12 mb-12 border-b border-slate-100 pb-12">
+                <div class="col-span-2">
+                    <a href="index.html" class="flex items-center space-x-2 mb-6">
+                        <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                            <i data-lucide="cpu" class="text-white w-5 h-5"></i>
+                        </div>
+                        <span class="text-xl font-bold text-slate-800 uppercase tracking-wider">Axentrian</span>
+                    </a>
+                    <p class="text-slate-500 max-w-sm mb-6">
+                        Engineering Intelligence. Automating Growth.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6">Contact</h4>
+                    <ul class="space-y-4 text-slate-500">
+                        <li class="flex items-start">
+                            <i data-lucide="map-pin" class="w-5 h-5 mr-3 text-blue-600 shrink-0"></i>
+                            <span>Colombo, Sri Lanka</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6">Phone</h4>
+                    <ul class="space-y-4 text-slate-500">
+                        <li>075 794 40 11</li>
+                        <li>077 313 65 22</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center text-sm text-slate-400">
+                &copy; 2026 Axentrian. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
